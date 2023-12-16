@@ -28,6 +28,8 @@ A tool that can detect nine nutrient deficiencies across three major crops in In
 * Validation accuracy: 90%
 * FInal Test accuracy: 88.24%
 
+* The project_report file contains a detailed description of the features of the project
+
 ### FILES:
 * fertilizer.xls - Excel file containing the data on fertilizers. It has 2 pages which needs to be updated with the info collected
 * first_app.py - The web application that is viewed by users
