@@ -1,5 +1,5 @@
 # fertilizer_recommendation
-Help farmers better care for their plants nutritional needs
+A tool that can detect nine nutrient deficiencies across three major crops in India and recommends fertilizer type and amount for farmers upon taking their additional input like age of the pant and not so seen symptoms
 
 #### CROPS FOCUSSED:
 * Rice
@@ -23,6 +23,10 @@ Help farmers better care for their plants nutritional needs
 * Uses user input on age of leaf (new/old/middle) and presence of 4 additional symptoms (not capture in leaf image), like stunted growth of entire plant.
 * Using this infomation and the research on identifying nutrient deficiencies (done by Montana State University, U.S. Department of Agriculture), the following rules are developed.
 * These results are further used to recommend appropriate fertilizers to the farmer, helping in **avoiding overfertilization** by adding standard fertilizers recommended to crop grown and **control costs**
+
+### RESULTS
+* Validation accuracy: 90%
+* FInal Test accuracy: 88.24%
 
 ### FILES:
 * fertilizer.xls - Excel file containing the data on fertilizers. It has 2 pages which needs to be updated with the info collected
